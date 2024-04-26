@@ -1,0 +1,75 @@
+body {
+  font-family: Poppins, sans-serif !important;
+}
+
+/* content design start */
+.containerwidth {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+a {
+  color: cornflowerblue !important;
+}
+
+.heading {
+  color: #274f6e;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+}
+
+.toggle {
+  width: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #274f6e !important;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.content {
+  position: relative;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 30px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  color: #436a87;
+}
+/* content design end */
+
+/* animation design start */
+.ball {
+  position: fixed;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+/* animation design end */
